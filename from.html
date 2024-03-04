@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>BUU</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="/img/bbu_logo-removebg-preview.png" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+  <link rel="stylesheet" href="main.js">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<script>
+  function login() {
+    var u = document.getElementById('txtu').value;
+    var p = document.getElementById('txtp').value;
+    if (u == "vetmengheang57@gmail.com" && p == 1234) {
+      alert("susses login your account")
+      window.location.href = "index.html";
+    }
+
+    if (u == "Group m-1" && p == 12342) {
+      alert("susses login your account")
+      window.location.href = "index.html";
+    } else {
+      alert("Username or password invalid!");
+    }
+  }
+</script>
+
+<body>
+  <div class='dashboard'>
+    <!--menu BBU and img BBU label-->
+    <div class="dashboard-nav">
+      <header><a href="#!" class="menu-toggle"><i class="fas fa-bars"></i></a><a href="#" class="brand-logo"><img
+            style="height: 50px;" src="/img/unnamed-removebg-preview (1).png" alt=""> <span>..BBU</span></a></header>
+      <nav class="dashboard-nav-list"><a href="#" class="dashboard-nav-item"><i class="fas fa-home"></i>
+          Home </a><a href="#" class="dashboard-nav-item active"><i class="fas fa-tachometer-alt"></i> dashboard
+        </a><a href="#" class="dashboard-nav-item"><i class="fas fa-file-upload"></i> Upload </a>
+        <div class='dashboard-nav-dropdown'><a href="#!" class="dashboard-nav-item dashboard-nav-dropdown-toggle"><i
+              class="fas fa-photo-video"></i> Media </a>
+          <div class='dashboard-nav-dropdown-menu'><a href="#" class="dashboard-nav-dropdown-item">All</a><a href="#"
+              class="dashboard-nav-dropdown-item">Recent</a><a href="#" class="dashboard-nav-dropdown-item">Images</a><a
+              href="#" class="dashboard-nav-dropdown-item">Video</a></div>
+        </div>
+        <div class='dashboard-nav-dropdown'><a href="/" class="dashboard-nav-item dashboard-nav-dropdown-toggle"><i
+              class="fas fa-users"></i> Users </a>
+          <div class='dashboard-nav-dropdown-menu'><a href="#" class="dashboard-nav-dropdown-item">All</a><a href="#"
+              class="dashboard-nav-dropdown-item">Subscribed</a><a href="#"
+              class="dashboard-nav-dropdown-item">Non-subscribed</a><a href="#"
+              class="dashboard-nav-dropdown-item">Banned</a><a href="#" class="dashboard-nav-dropdown-item">New</a>
+          </div>
+        </div>
+        <div class='dashboard-nav-dropdown'><a href="#!" class="dashboard-nav-item dashboard-nav-dropdown-toggle"><i
+              class="fas fa-money-check-alt"></i> Payments </a>
+          <div class='dashboard-nav-dropdown-menu'><a href="#" class="dashboard-nav-dropdown-item">All</a><a href="#"
+              class="dashboard-nav-dropdown-item">Recent</a><a href="#" class="dashboard-nav-dropdown-item">
+              Projections</a>
+          </div>
+        </div>
+        <a href="#" class="dashboard-nav-item"><i class="fas fa-cogs"></i> Settings </a><a href="#"
+          class="dashboard-nav-item"><i class="fas fa-user"></i> Profile </a>
+        <div class="nav-item-divider"></div>
+        <a href="#" class="dashboard-nav-item"><i class="fas fa-sign-out-alt"></i> Logout </a>
+      </nav>
+    </div>
+    <div class='dashboard-app'>
+      <header class='dashboard-toolbar'><a href="#!" class="menu-toggle"><i class="fas fa-bars"></i></a>
+        <h4>BUILD REIGHT UNIVERSITY</h4>
+      </header>
+      <div class='dashboard-content'>
+        <div class='container'>
+
+
+          <div class="container">
+            <div class="section-title text-center">
+              <!--Label for form log in-->
+
+            </div>
+       
+        
+            <!--form log in bbu-->
+            <section class="vh-100">
+              <div class="container py-5 h-100">
+                <div class="row d-flex justify-content-center align-items-center ">
+                  <div class="col col-xl-10">
+                    <div class="card" style="border-radius: 1rem;">
+                      <div class="row g-0">
+                        <div class="col-md-6 col-lg-5 d-none d-md-block">
+                          <img src="/img/Salat 2024-01-12 182543.png" alt="login form" class="img-fluid"
+                            style="border-radius: 1rem 0 0 1rem;" />
+                        </div>
+                        <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                          <div class="card-body p-4 p-lg-5 text-black">
+
+                            <form>
+
+                              <div class="d-flex align-items-center mb-3 pb-1">
+                                <i class="fas fa-cubes fa-2x me-3" style="color: #ff6219;"></i>
+                                <span class="h1 fw-bold mb-0">Logo</span>
+                              </div>
+
+                              <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Sign into your account</h5>
+
+                              <div class=" mb-4">
+                                <input type="email" id="txtu" class="form-control form-control-lg"
+                                  placeholder="Email" />
+
+                              </div>
+
+                              <div class=" mb-4">
+                                <input type="password" id="txtp" class="form-control form-control-lg"
+                                  placeholder="password" />
+
+                              </div>
+
+                              <div class="pt-1 mb-4">
+                                <button class=" btn btn btn-block" type="button" value="Login" onclick="login();"
+                                  style="background-color:#7564e5 ;color: white;">Login</button>
+                              </div>
+
+                              <a class="small text-muted" href="#!">Forgot password?</a>
+                              <p class="mb-5 pb-lg-2" style="color: #393f81;">Don't have an account? <a href="#!"
+                                  style="color: #393f81;">Register here</a></p>
+                              <a href="#!" class="small text-muted">Terms of use.</a>
+                              <a href="#!" class="small text-muted">Privacy policy</a>
+                            </form>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+          </div><!--- END CONTAINER -->
+        </div>
+
+        <div style="margin: 10px;"></div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+
+</body>
+
+</html>

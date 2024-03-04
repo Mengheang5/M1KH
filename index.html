@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>BUU</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="/img/bbu_logo-removebg-preview.png" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+  <link rel="stylesheet" href="main.js">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<script>
+  function login(){
+    var u = document.getElementById('txtu').value;
+    var p = document.getElementById('txtp').value;
+    if (u == "vetmengheang57@gmail.com" && p == 1234){
+      alert("susses login your account")
+        window.location.href = "index.html";
+        alert("jol ban hx")
+    }else{
+        alert ("Username or password invalid!");
+    }
+}
+document.getElementById("logoutButton").addEventListener("click", function() {
+  if (confirm("Are you sure you want to logout?")) {
+    // Perform logout actions here (e.g., clear cookies, redirect to login page)
+  }
+});
+
+</script>
+<body>
+  <div class='dashboard'>
+    <!--menu BBU and img BBU label-->
+    <div class="dashboard-nav">
+      <header><a href="#!" class="menu-toggle"><i class="fas fa-bars"></i></a><a href="#" class="brand-logo"><img
+            style="height: 50px;" src="/img/unnamed-removebg-preview (1).png" alt=""> <span>..BBU</span></a></header>
+      <nav class="dashboard-nav-list"><a href="#" class="dashboard-nav-item"><i class="fas fa-home"></i>
+          Home </a><a href="/timework.html" class="dashboard-nav-item active"><i class="fas fa-tachometer-alt"></i> dashboard
+        </a><a href="/profile.html" class="dashboard-nav-item"><i class="fas fa-file-upload"></i> Upload </a>
+        <div class='dashboard-nav-dropdown'><a href="https://bbu.edu.kh/" class="dashboard-nav-item dashboard-nav-dropdown-toggle"><i
+              class="fas fa-photo-video"></i> Media </a>
+          <div class='dashboard-nav-dropdown-menu'><a href="#" class="dashboard-nav-dropdown-item">All</a><a href="#"
+              class="dashboard-nav-dropdown-item">Recent</a><a href="#" class="dashboard-nav-dropdown-item">Images</a><a
+              href="#" class="dashboard-nav-dropdown-item">Video</a></div>
+        </div>
+        <div class='dashboard-nav-dropdown'><a href="/Medea.html" class="dashboard-nav-item dashboard-nav-dropdown-toggle"><i
+              class="fas fa-users"></i> Campus </a>
+          <div class='dashboard-nav-dropdown-menu'><a href="#" class="dashboard-nav-dropdown-item">All</a><a href="#"
+              class="dashboard-nav-dropdown-item">Subscribed</a><a href="#"
+              class="dashboard-nav-dropdown-item">Non-subscribed</a><a href="#"
+              class="dashboard-nav-dropdown-item">Banned</a><a href="#" class="dashboard-nav-dropdown-item">New</a>
+          </div>
+        </div>
+        <div class='dashboard-nav-dropdown'><a href="/payment.html" class="dashboard-nav-item dashboard-nav-dropdown-toggle"><i
+              class="fas fa-money-check-alt"></i> Payments </a>
+          <div class='dashboard-nav-dropdown-menu'><a href="#" class="dashboard-nav-dropdown-item">All</a><a href="#"
+              class="dashboard-nav-dropdown-item">Recent</a><a href="#" class="dashboard-nav-dropdown-item">
+              Projections</a>
+          </div>
+        </div>
+        <a href="/about.html" class="dashboard-nav-item"><i class="fas fa-cogs"></i> About BBU </a><a href="/profile22.html"
+          class="dashboard-nav-item"><i class="fas fa-user"></i> Profile </a>
+        <div class="nav-item-divider"></div>
+        <a href="/from.html" class="dashboard-nav-item" onclick="return confirm('Are you sure you want to logout your account?');"><i class="fas fa-sign-out-alt"></i> Logout </a>
+      </nav>
+    </div>
+    <div class='dashboard-app'>
+      <header class='dashboard-toolbar'><a href="#!" class="menu-toggle"><i class="fas fa-bars"></i></a>
+        <h4>BUILD REIGHT UNIVERSITY</h4>
+      </header>
+      <div class='dashboard-content'>
+        <div class='container'>
+          <div class='card'>
+            <div class='card-header'>
+              <div class="container">
+                <div class="section-title text-center">
+                  <!--Label for form log in-->
+                  <h1>WELCOME TO BUU</h1>
+                  <p>Please sign in to access your BUU student portal and experience all the perks of being a part of
+                    our vibrant community.</p>
+                </div>
+                <!--form log in bbu-->
+                >
+                <div class="row">
+                  <div class="col-lg-7">
+                    <div class="contact">
+                      <form class="form" name="enq" method="post" action="contact.php" onsubmit="return validation();">
+                        <div class="row">
+                          <div style="margin: 2;"></div>
+                          
+                      <img src="/img/photo_2023-12-25_20-43-05.jpg" alt="">
+                         
+                         
+                          <div style="margin-top: 30px;"></div>
+                          <div class="col-md-12 text-center">
+                            
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div><!--- END COL -->
+                  <div class="col-lg-5">
+                    <div class="single_address" style="  box-shadow:
+                   0px 0px 10px rgba(0,0,0,.5);padding: 20px;">
+                  
+                      <i class="fa fa-map-marker"></i>
+                      <h4>BBU Address</h4>
+                      <p>Brey build, smadech Sothearos Bullevards.pp,12301,CBD <a href="https://www.google.com/maps/place/Build+Bright+University+Phnom+Penh+Thmey+B/@11.5720331,104.8814349,17z/data=!3m1!4b1!4m6!3m5!1s0x31095130ff8538af:0x781a871e72e881!8m2!3d11.5720331!4d104.8840098!16s%2Fg%2F11rhr8bqfp?entry=ttu">map</a></p>
+                    </div>
+                    <div class="single_address" style="box-shadow: 0px 0px 10px rgba(0,0,0,.5);padding: 20px;">
+                      <i class="fa fa-envelope"></i>
+                      <h4>Send your message</h4>
+                      <p><a href="https://www.google.com/search?q=info%40bbu.edu.kh&rlz=1C1CHBD_enKH1065KH1065&oq=info%40bbu.edu.kh&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg60gEJMTI2MGowajE1qAIAsAIA&sourceid=chrome&ie=UTF-8"><p>info@bbu.edu.kh</p></a></p>
+                    </div>
+                    <div class="single_address" style="box-shadow: 0px 0px 10px rgba(0,0,0,.5);padding: 20px;">
+                      <i class="fa fa-phone"></i>
+                      <h4>Call us on</h4>
+                      <p><a href="">+885 -2398700</a></p>
+                    </div>
+                    <div class="single_address" style="box-shadow: 0px 0px 10px rgba(0,0,0,.5);padding: 20px;">
+                      <i class="fa-solid fa-stopwatch"></i>
+                      <h4>Work Time</h4>
+                      <a href="">   <p>Mon - Fri: 08.00 - 16.00. <br>Sat: 10.00 - 14.00</p></a>
+                   
+                    </div>
+                  </div><!--- END COL -->
+                </div><!--- END ROW -->
+              </div><!--- END CONTAINER -->
+
+            </div>
+
+
+          </div>
+          <div style="margin: 10px;"></div>
+
+          <div class="row">
+            <div class="col-6">
+              <div class="card mb-3" style="width:640px;margin-right: 60px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="/img/photo_2023-07-01_20-58-45.jpg" class="img-fluid rounded-start" alt="">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card mb-3" style="width: 638px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="/img/ah2023-07-01_20-58-45.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <img src="/img/Banner-Web3.jpg" class="card-img-top" alt="Wild Landscape"/>
+            <div class="card-body">
+              <h5 class="card-title">BUU</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">BUU</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+            <img src="/img/1704795804_Banner-Web2.jpg" class="card-img-bottom" alt="Camera"/>
+          </div>
+
+
+          <div class="container my-4">
+<!-- Gallery -->
+<div class="row">
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+    <img
+      src="/img/BBU Scholarship.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Boat on Calm Water"
+    />
+
+    <img
+      src="/img/yakkam.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Wintry Mountain Landscape"
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="/img/list_discount(1).jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Mountains in the Clouds"
+    />
+
+    <img
+      src="/img/IT.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Boat on Calm Water"
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="/img/somnong.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Waves at Sea"
+    />
+
+    <img
+      src="/img/sers.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Yosemite National Park"
+    />
+  </div>
+</div>
+<!-- Gallery -->
+
+            <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+            <div class="container mt-5 pt-4">
+                <div class="row align-items-end mb-4 pb-2">
+                  <h1 class="text-center"style="font-family: 'Konkhmer Sleokchher', system-ui;
+                  font-family: 'Passion One', sans-serif;">Short session</h1>
+            
+                
+                </div><!--end row-->
+            
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card border-0 bg-light rounded shadow">
+                            <div class="card-body p-4">
+                                <span class="badge rounded-pill bg-primary float-md-end mb-3 mb-sm-0">Full time</span>
+                                <h5>Web Designer</h5>
+                                <div class="mt-3">
+                                    <span class="text-muted d-block"><i class="fa fa-home" aria-hidden="true"></i> <a href="#" target="_blank" class="text-muted">Bootdey.com LLC.</a></span>
+                                    <span class="text-muted d-block"><i class="fa fa-map-marker" aria-hidden="true"></i> USA</span>
+                                </div>
+                                
+                                <div class="mt-3">
+                                    <a href="#" class="btn btn-primary">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card border-0 bg-light rounded shadow">
+                            <div class="card-body p-4">
+                                <span class="badge rounded-pill bg-primary float-md-end mb-3 mb-sm-0">Remote</span>
+                                <h5>Front-end Developer</h5>
+                                <div class="mt-3">
+                                    <span class="text-muted d-block"><i class="fa fa-home" aria-hidden="true"></i> <a href="#" target="_blank" class="text-muted">Bootdey.com LLC.</a></span>
+                                    <span class="text-muted d-block"><i class="fa fa-map-marker" aria-hidden="true"></i> USA</span>
+                                </div>
+                                
+                                <div class="mt-3">
+                                    <a href="#" class="btn btn-primary">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card border-0 bg-light rounded shadow">
+                            <div class="card-body p-4">
+                                <span class="badge rounded-pill bg-primary float-md-end mb-3 mb-sm-0">Contract</span>
+                                <h5>Web Developer</h5>
+                                <div class="mt-3">
+                                    <span class="text-muted d-block"><i class="fa fa-home" aria-hidden="true"></i> <a href="#" target="_blank" class="text-muted">Bootdey.com LLC.</a></span>
+                                    <span class="text-muted d-block"><i class="fa fa-map-marker" aria-hidden="true"></i> USA</span>
+                                </div>
+                                
+                                <div class="mt-3">
+                                    <a href="#" class="btn btn-primary">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card border-0 bg-light rounded shadow">
+                            <div class="card-body p-4">
+                                <span class="badge rounded-pill bg-primary float-md-end mb-3 mb-sm-0">WFH</span>
+                                <h5>Back-end Developer</h5>
+                                <div class="mt-3">
+                                    <span class="text-muted d-block"><i class="fa fa-home" aria-hidden="true"></i> <a href="#" target="_blank" class="text-muted">Bootdey.com LLC.</a></span>
+                                    <span class="text-muted d-block"><i class="fa fa-map-marker" aria-hidden="true"></i> USA</span>
+                                </div>
+                                
+                                <div class="mt-3">
+                                    <a href="#" class="btn btn-primary">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card border-0 bg-light rounded shadow">
+                            <div class="card-body p-4">
+                                <span class="badge rounded-pill bg-primary float-md-end mb-3 mb-sm-0">Full time</span>
+                                <h5>UX / UI Designer</h5>
+                                <div class="mt-3">
+                                    <span class="text-muted d-block"><i class="fa fa-home" aria-hidden="true"></i> <a href="#" target="_blank" class="text-muted">Bootdey.com LLC.</a></span>
+                                    <span class="text-muted d-block"><i class="fa fa-map-marker" aria-hidden="true"></i> USA</span>
+                                </div>
+                                
+                                <div class="mt-3">
+                                    <a href="#" class="btn btn-primary">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card border-0 bg-light rounded shadow">
+                            <div class="card-body p-4">
+                                <span class="badge rounded-pill bg-primary float-md-end mb-3 mb-sm-0">Remote</span>
+                                <h5>Tester</h5>
+                                <div class="mt-3">
+                                    <span class="text-muted d-block"><i class="fa fa-home" aria-hidden="true"></i> <a href="#" target="_blank" class="text-muted">Bootdey.com LLC.</a></span>
+                                    <span class="text-muted d-block"><i class="fa fa-map-marker" aria-hidden="true"></i> USA</span>
+                                </div>
+                                
+                                <div class="mt-3">
+                                    <a href="#" class="btn btn-primary">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+            
+                    <div class="col-12 mt-4 pt-2 d-block d-md-none text-center">
+                        <a href="#" class="btn btn-primary">View more Jobs <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right fea icon-sm"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div>
+
+            <hr>
+
+            <p class="font-weight-bold">Google mapSchool</p>
+
+            <!--Google map-->
+            <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+              <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                style="border:0" allowfullscreen></iframe>
+            </div>
+
+            <!--Google Maps-->
+
+          </div>
+        </div>
+      </div>
+      <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container my-5">
+
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #1c2331"
+          >
+    <!-- Section: Social media -->
+    <section
+             class="d-flex justify-content-between p-4"
+             style="background-color: #6351ce"
+             >
+      <!-- Left -->
+      <div class="me-5">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold">Company name</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              Here you can use rows and columns to organize your footer
+              content. Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Products</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-white">MDBootstrap</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">MDWordPress</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">BrandFlow</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Bootstrap Angular</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Useful links</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-white">Your Account</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Become an Affiliate</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Shipping Rates</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+            <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/"
+         >MDBootstrap.com</a
+        >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+</div>
+<!-- End of .container -->
+    </div>
+    
+  </div>
+  
+  </div>
+  
+
+</body>
+
+</html>
